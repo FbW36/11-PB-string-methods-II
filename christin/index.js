@@ -2,7 +2,8 @@ let right = "Its hard to say who is right in this matter";
 
 // 0 Find the first occurrence of the letter "a" in a string, starting the search at position 17.
 
-console.log(right.slice(17), right.lastIndexOf("a")); // 38
+//console.log(right.slice(17), right.lastIndexOf("a")); // 38
+console.log(right.indexOf("a", 17)); // 38
 
 // 1 Check if a string includes "righT".
 
