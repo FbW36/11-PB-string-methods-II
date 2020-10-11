@@ -2,11 +2,10 @@
 let mainStr = "It's hard to say who is right in this matter";
 
 // 0.
-let firstOccurrence = 0;
-lastIndexOf_a = mainStr.lastIndexOf('a');
-/* console.log(lastIndexOf_a); */
-lastIndexOf_aExtraction = mainStr[lastIndexOf_a];
-console.log(lastIndexOf_aExtraction);
+
+let searchedLetter = "a";
+let firstOccurrenceOfSearchedLetter = mainStr.indexOf("a", 17);
+console.log(`The first occurrence of letter '${searchedLetter}' starting at position 17 is at position ${firstOccurrenceOfSearchedLetter}`);
 
 // 1. 
 let subStr = 'rightT';
